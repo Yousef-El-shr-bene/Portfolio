@@ -53,7 +53,7 @@ export default function Intro() {
         animate={{ opacity: 1, y: 0 }}
       >
         <span className="font-bold">Hello, I'm Yousef.</span> I'm a{" "}
-        <span className="font-bold">frunt-end & full-stack developer.</span> I enjoy{" "}
+        <span className="font-bold">Front-end & full-stack developer.</span> I enjoy{" "}
         building <span className="italic">sites</span>. My focus is{" "}
         <span className="underline">React (Next.js)</span>.
       </motion.h1>
@@ -89,7 +89,7 @@ export default function Intro() {
 
         <a
           className="bg-white p-4 text-gray-700 hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
-          href="www.linkedin.com/in/yousef-el-shr-bene-57aa03245"
+          href="https://www.linkedin.com/in/yousef-el-shr-bene-57aa03245"
           target="_blank"
         >
           <BsLinkedin />

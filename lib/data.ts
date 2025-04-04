@@ -1,10 +1,7 @@
-import React from "react";
-import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
-import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import yallaDeliver from "@/public/yallaDeliver.png";
+import Strada from "@/public/Strada.png";
+import chatRooms from "@/public/chatRooms.png";
+import Antaka from "@/public/Antaka.png";
 
 export const links = [
   {
@@ -35,22 +32,33 @@ export const projectsData = [
     title: "Yallla Deliver System",
     description:
       "A complete management system for an authentication shipping company: financial management, employee management, delivery operations management, and inventory management.",
-    tags: ["React", "Next.js", "Prisma-PostgreSQL", "Tailwind", "Typescript"],
-    imageUrl: corpcommentImg,
+    tags: ["Prisma-PostgreSQL","React", "Next.js",  "Tailwind", "Typescript"],
+    imageUrl: yallaDeliver,
+    Url : "https://yallla-wep-sestem.vercel.app"
   },
   {
-    title: "strada-20",
+    title: "Strada-20",
     description:
       "e-commerce project with a shopping cart ,authentication , Great way to display products and Responsive.",
-    tags: ["React","next.js","TypeScript" ,"Prisma-PostgreSQL" , "next-auth", "jsonwebtoken", "tailwindcss", "dayse ui", ],
-    imageUrl: rmtdevImg,
+    tags: ["React","next.js","TypeScript" ,"Prisma-PostgreSQL" , "next-auth", "jsonWebToken", "tailwindcss", "dayse ui", ],
+    imageUrl: Strada,
+    Url : "https://strada-20.vercel.app"
   },
   {
-    title: "chat-roms",
+    title: "Chat Roms",
     description:
       "A project similar to chat sites where the user enters and then creates a room or enters a room that was created by another person and starts chatting.",
     tags: ["react" , "firebase" , "manten-ui"],
-    imageUrl: wordanalyticsImg,
+    imageUrl: chatRooms,
+    Url : "https://chat-rooms-app-a4711.web.app"
+  },
+  {
+    title: "Antaka Qr-Menu",
+    description:
+      "Simple menu showing product details + admin dashboard to add and edit products.",
+    tags: ["react" , "firebase" , "tailwindcss"],
+    imageUrl: Antaka,
+    Url : "https://antaka-qr-menu.vercel.app"
   },
 ] as const;
 
@@ -66,5 +74,7 @@ export const skillsData = [
   "Prisma",
   "PostgreSQL",
   "moment.Js",
-  "JWT",
+  "jsonWebToken",
+  "firebase",
+
 ] as const;

@@ -19,9 +19,19 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-      I'm a full stack developer who is very passionate about {" "}
-        <span className="font-medium">coding and problem solving and building softwares </span>
-        ,flexible in learning ,try as much as possible to do my best.
+        I'm a full stack developer who is very passionate about{" "}
+        <span className="font-medium">
+          coding and problem solving and building softwares{" "}
+        </span>
+        ,flexible in learning ,try as much as possible to do my best. After
+        joining the college of social work, I felt that this is not my place, so
+        I studied programming through YouTube, then I joined the Ministry of
+        Communications FWD scholarship in JavaScript & react. I finished the
+        scholarship and continued learning from YouTube until I became a
+        full-stack next.js. Then I finished my university studies and completed
+        my military service period, and I am now available for work. In the
+        coming period, I am planning to join the Diploma in Computer Science and
+        Artificial Intelligence at Cairo University. Wish me success.
       </p>
     </motion.section>
   );
